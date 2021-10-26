@@ -89,6 +89,15 @@ public:
 
 		return h1.dump();
 	}
+	virtual void Print() {
+		cout << "NameGryp: " << NameGryp << endl;
+		cout << "Marks:" << endl;
+		for (int i = 0; i < marks.size(); i++) {
+			cout << marks[i] << "; ";
+		}
+		cout << endl;
+		
+	}
 	//bool operator ==(Human& other)
 	//{
 	//	if (this->() == other.())return true;
